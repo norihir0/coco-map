@@ -1,0 +1,13 @@
+target 'sirube' do
+  platform :ios, ’10.0’
+  use_frameworks!
+
+pod 'Firebase', '~> 5.0.0'
+pod 'Firebase/Core'
+pod 'Firebase/Firestore'
+pod 'Firebase/Auth'
+pod 'Firebase/DynamicLinks'
+pod 'Mapbox-iOS-SDK', '~> 4.9'
+pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+
+end

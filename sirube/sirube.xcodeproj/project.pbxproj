@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112E5B4F21D4B2C900918E3A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E5B4E21D4B2C900918E3A /* MainTabBarController.swift */; };
+		112E5B5121D5BDF500918E3A /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E5B5021D5BDF500918E3A /* StoryController.swift */; };
+		112E5B5421D5CC5900918E3A /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E5B5321D5CC5900918E3A /* UserProfileController.swift */; };
+		112E5B5821D7B6C700918E3A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E5B5721D7B6C700918E3A /* PageViewController.swift */; };
+		116044442205A7C3003A1E5F /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116044432205A7C3003A1E5F /* CameraController.swift */; };
+		116044462205D761003A1E5F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116044452205D761003A1E5F /* Extentions.swift */; };
+		1176816B21F4A27D0055405B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1176816A21F4A27D0055405B /* CoreLocation.framework */; };
+		983DF466237E91DA00A139DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983DF465237E91DA00A139DB /* GoogleService-Info.plist */; };
+		983EFE3F22658CCB001B1FA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983EFE3E22658CCB001B1FA4 /* Default-568h@2x.png */; };
+		98647977226DEFA700B4EC05 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98647976226DEFA700B4EC05 /* UserData.swift */; };
+		98A1487821B28014006123FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1487721B28014006123FA /* AppDelegate.swift */; };
+		98A1487D21B28014006123FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A1487B21B28014006123FA /* Main.storyboard */; };
+		98A1487F21B28016006123FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98A1487E21B28016006123FA /* Assets.xcassets */; };
+		98A1488221B28016006123FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98A1488021B28016006123FA /* LaunchScreen.storyboard */; };
+		98A68AE62265881C00454B2C /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A68AE52265881C00454B2C /* MapController.swift */; };
+		98C3BF3122682E260040C6B6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3BF3022682E260040C6B6 /* LoginController.swift */; };
+		98C3BF33226978DB0040C6B6 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3BF32226978DB0040C6B6 /* SignUpController.swift */; };
+		98C3BF352269790B0040C6B6 /* TermsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3BF342269790B0040C6B6 /* TermsController.swift */; };
+		A2A01A04E8EAA95231AB0531 /* Pods_sirube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F360C9A1519F26E61C6B03 /* Pods_sirube.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112E5B4E21D4B2C900918E3A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		112E5B5021D5BDF500918E3A /* StoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
+		112E5B5321D5CC5900918E3A /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		112E5B5721D7B6C700918E3A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		116044432205A7C3003A1E5F /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		116044452205D761003A1E5F /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		1176816A21F4A27D0055405B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6AA1233CA66F03D2A160A5B0 /* Pods-sirube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sirube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sirube/Pods-sirube.debug.xcconfig"; sourceTree = "<group>"; };
+		983DF465237E91DA00A139DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		983EFE3E22658CCB001B1FA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		98647976226DEFA700B4EC05 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		98A1487421B28014006123FA /* coco map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coco map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A1487721B28014006123FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98A1487C21B28014006123FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98A1487E21B28016006123FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98A1488121B28016006123FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98A1488321B28016006123FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A68AE52265881C00454B2C /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		98C3BF3022682E260040C6B6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		98C3BF32226978DB0040C6B6 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		98C3BF342269790B0040C6B6 /* TermsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsController.swift; sourceTree = "<group>"; };
+		A4BE98FA41D8704E87888702 /* Pods-sirube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sirube.release.xcconfig"; path = "Pods/Target Support Files/Pods-sirube/Pods-sirube.release.xcconfig"; sourceTree = "<group>"; };
+		E6F360C9A1519F26E61C6B03 /* Pods_sirube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sirube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A1487121B28014006123FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1176816B21F4A27D0055405B /* CoreLocation.framework in Frameworks */,
+				A2A01A04E8EAA95231AB0531 /* Pods_sirube.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112E5B4D21D4B29E00918E3A /* story */ = {
+			isa = PBXGroup;
+			children = (
+				112E5B5021D5BDF500918E3A /* StoryController.swift */,
+				112E5B5721D7B6C700918E3A /* PageViewController.swift */,
+			);
+			path = story;
+			sourceTree = "<group>";
+		};
+		112E5B5221D5CC2F00918E3A /* userProfile */ = {
+			isa = PBXGroup;
+			children = (
+				112E5B5321D5CC5900918E3A /* UserProfileController.swift */,
+			);
+			path = userProfile;
+			sourceTree = "<group>";
+		};
+		116044422205A78F003A1E5F /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				116044432205A7C3003A1E5F /* CameraController.swift */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		436E5B9A101D1A045434DD0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1176816A21F4A27D0055405B /* CoreLocation.framework */,
+				E6F360C9A1519F26E61C6B03 /* Pods_sirube.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76DE87B31BA4E37BA6523C69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AA1233CA66F03D2A160A5B0 /* Pods-sirube.debug.xcconfig */,
+				A4BE98FA41D8704E87888702 /* Pods-sirube.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98A1486B21B28014006123FA = {
+			isa = PBXGroup;
+			children = (
+				983EFE3E22658CCB001B1FA4 /* Default-568h@2x.png */,
+				98A1487621B28014006123FA /* coco */,
+				98A1487521B28014006123FA /* Products */,
+				76DE87B31BA4E37BA6523C69 /* Pods */,
+				436E5B9A101D1A045434DD0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98A1487521B28014006123FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A1487421B28014006123FA /* coco map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98A1487621B28014006123FA /* coco */ = {
+			isa = PBXGroup;
+			children = (
+				98A68AE72265883200454B2C /* map */,
+				112E5B4D21D4B29E00918E3A /* story */,
+				116044422205A78F003A1E5F /* camera */,
+				112E5B5221D5CC2F00918E3A /* userProfile */,
+				98B8A9FC2275C856009FE006 /* login */,
+				98B8A9FD2275C8D5009FE006 /* others */,
+				98A1487B21B28014006123FA /* Main.storyboard */,
+				98A1487E21B28016006123FA /* Assets.xcassets */,
+				98A1488021B28016006123FA /* LaunchScreen.storyboard */,
+				98A1488321B28016006123FA /* Info.plist */,
+				983DF465237E91DA00A139DB /* GoogleService-Info.plist */,
+			);
+			path = coco;
+			sourceTree = "<group>";
+		};
+		98A68AE72265883200454B2C /* map */ = {
+			isa = PBXGroup;
+			children = (
+				98A68AE52265881C00454B2C /* MapController.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		98B8A9FC2275C856009FE006 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				98C3BF3022682E260040C6B6 /* LoginController.swift */,
+				98C3BF32226978DB0040C6B6 /* SignUpController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		98B8A9FD2275C8D5009FE006 /* others */ = {
+			isa = PBXGroup;
+			children = (
+				98A1487721B28014006123FA /* AppDelegate.swift */,
+				112E5B4E21D4B2C900918E3A /* MainTabBarController.swift */,
+				116044452205D761003A1E5F /* Extentions.swift */,
+				98647976226DEFA700B4EC05 /* UserData.swift */,
+				98C3BF342269790B0040C6B6 /* TermsController.swift */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98A1487321B28014006123FA /* sirube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98A1488621B28016006123FA /* Build configuration list for PBXNativeTarget "sirube" */;
+			buildPhases = (
+				F1AD2BD991E2A5EF38BDA065 /* [CP] Check Pods Manifest.lock */,
+				98A1487021B28014006123FA /* Sources */,
+				98A1487121B28014006123FA /* Frameworks */,
+				98A1487221B28014006123FA /* Resources */,
+				A40A6DCB13B92AE77CB82DDC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sirube;
+			productName = sirube;
+			productReference = 98A1487421B28014006123FA /* coco map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98A1486C21B28014006123FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "山本憲弘";
+				TargetAttributes = {
+					98A1487321B28014006123FA = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 98A1486F21B28014006123FA /* Build configuration list for PBXProject "sirube" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98A1486B21B28014006123FA;
+			productRefGroup = 98A1487521B28014006123FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A1487321B28014006123FA /* sirube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98A1487221B28014006123FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A1488221B28016006123FA /* LaunchScreen.storyboard in Resources */,
+				98A1487F21B28016006123FA /* Assets.xcassets in Resources */,
+				983DF466237E91DA00A139DB /* GoogleService-Info.plist in Resources */,
+				983EFE3F22658CCB001B1FA4 /* Default-568h@2x.png in Resources */,
+				98A1487D21B28014006123FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A40A6DCB13B92AE77CB82DDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sirube/Pods-sirube-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sirube/Pods-sirube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1AD2BD991E2A5EF38BDA065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sirube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98A1487021B28014006123FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98A68AE62265881C00454B2C /* MapController.swift in Sources */,
+				112E5B5421D5CC5900918E3A /* UserProfileController.swift in Sources */,
+				112E5B5121D5BDF500918E3A /* StoryController.swift in Sources */,
+				112E5B5821D7B6C700918E3A /* PageViewController.swift in Sources */,
+				116044462205D761003A1E5F /* Extentions.swift in Sources */,
+				98C3BF33226978DB0040C6B6 /* SignUpController.swift in Sources */,
+				98647977226DEFA700B4EC05 /* UserData.swift in Sources */,
+				98A1487821B28014006123FA /* AppDelegate.swift in Sources */,
+				98C3BF352269790B0040C6B6 /* TermsController.swift in Sources */,
+				98C3BF3122682E260040C6B6 /* LoginController.swift in Sources */,
+				116044442205A7C3003A1E5F /* CameraController.swift in Sources */,
+				112E5B4F21D4B2C900918E3A /* MainTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98A1487B21B28014006123FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A1487C21B28014006123FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98A1488021B28016006123FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98A1488121B28016006123FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98A1488421B28016006123FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98A1488521B28016006123FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98A1488721B28016006123FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA1233CA66F03D2A160A5B0 /* Pods-sirube.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9E7JYW94G2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Mapbox-iOS-SDK/dynamic",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/coco/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sirube.coco-map";
+				PRODUCT_NAME = "coco map";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		98A1488821B28016006123FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4BE98FA41D8704E87888702 /* Pods-sirube.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9E7JYW94G2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Mapbox-iOS-SDK/dynamic",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/coco/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sirube.coco-map";
+				PRODUCT_NAME = "coco map";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98A1486F21B28014006123FA /* Build configuration list for PBXProject "sirube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A1488421B28016006123FA /* Debug */,
+				98A1488521B28016006123FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98A1488621B28016006123FA /* Build configuration list for PBXNativeTarget "sirube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A1488721B28016006123FA /* Debug */,
+				98A1488821B28016006123FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98A1486C21B28014006123FA /* Project object */;
+}
