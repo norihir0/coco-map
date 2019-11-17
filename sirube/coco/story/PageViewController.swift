@@ -13,7 +13,6 @@ class PageViewController : UIViewController, CLLocationManagerDelegate{
   
   override func viewDidLoad() {
     setupPageViewController()
-  //   setupNavigationBar()
     setupLocationManager()
   }
   
@@ -35,28 +34,6 @@ class PageViewController : UIViewController, CLLocationManagerDelegate{
       addChild(pageViewController)
       self.view.addSubview(pageViewController.view)
     }
-  }
-  
-  private func setupNavigationBar() {
-    let allMenuButton = UIBarButtonItem(title: "すべて", style: UIBarButtonItem.Style.plain, target: self, action: #selector(getVideo))
-    allMenuButton.tintColor = UIColor.white
-    
-    let eatMenuBarButton = UIBarButtonItem(title: "たべる", style: UIBarButtonItem.Style.plain, target: self, action: #selector(getVideo))
-    eatMenuBarButton.tintColor = UIColor.white
-    
-    let playMenuBarButton = UIBarButtonItem(title: "あそぶ", style: UIBarButtonItem.Style.plain, target: self, action: #selector(getVideo))
-    playMenuBarButton.tintColor = UIColor.white
-    
-    let buyMenuBarButton = UIBarButtonItem(title: " かう ", style: UIBarButtonItem.Style.plain, target: self, action: #selector(getVideo))
-    buyMenuBarButton.tintColor = UIColor.white
-    
-    let restMenuBarButton = UIBarButtonItem(title: "やすむ", style: UIBarButtonItem.Style.plain, target: self, action: #selector(getVideo))
-    restMenuBarButton.tintColor = UIColor.white
-    
-    let buttonGap: UIBarButtonItem = UIBarButtonItem(title: "｜", style: UIBarButtonItem.Style.plain, target: self, action: nil)
-    buttonGap.tintColor = UIColor.white
-    
-    self.navigationItem.leftBarButtonItems = [allMenuButton,buttonGap,eatMenuBarButton,buttonGap,playMenuBarButton,buttonGap,buyMenuBarButton,buttonGap,restMenuBarButton]
   }
   
   @objc

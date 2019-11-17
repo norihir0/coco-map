@@ -26,4 +26,5 @@ struct UserData {
     
     self.partner = dictionary["partner"] as? String ?? ""
   }
+  
 }

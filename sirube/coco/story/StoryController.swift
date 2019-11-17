@@ -61,10 +61,7 @@ class StoryController: UIViewController{
   }
   
   @objc func endOfMovie() {
-    // 動画を先頭まで巻き戻す
     player?.seek(to: CMTime(seconds: 0, preferredTimescale: 1))
-    
-    // 巻き戻し後に自動再生
     player?.play()
   }
 }

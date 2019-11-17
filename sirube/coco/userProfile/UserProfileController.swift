@@ -204,25 +204,8 @@ class UserProfileController: UIViewController {
     tf.isSecureTextEntry = true
     tf.font = UIFont.systemFont(ofSize: 14)
     tf.addTarget(self, action: #selector(handleTextInputChange), for: .editingChanged)
-//    tf.addBorderBottom(height: 1.0, color: UIColor.lightGray)
-//    let border = CALayer()
-//    let width = CGFloat(2.0)
-//    border.borderColor = UIColor.gray.cgColor
-//    border.frame = CGRect(x: 0, y: tf.frame.size.height - width, width:  tf.frame.size.width, height: 1)
-//    border.borderWidth = width
-//    tf.layer.addSublayer(border)
     tf.backgroundColor = UIColor(white: 0, alpha: 0.03)
     tf.borderStyle = .roundedRect
-//    let underline: UIView = UIView()
-//    tf.frame.size.height = 50
-//    underline.frame = CGRect(
-//      x: 0,
-//      y: tf.frame.height,
-//      width: tf.frame.width,
-//      height: 2.5)
-//    underline.backgroundColor = UIColor(red:0.36, green:0.61, blue:0.93, alpha:1.0)
-//    tf.addSubview(underline)
-//    tf.bringSubviewToFront(underline)
     return tf
   }()
   
