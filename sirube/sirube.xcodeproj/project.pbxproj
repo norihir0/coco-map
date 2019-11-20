@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		112E5B4F21D4B2C900918E3A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E5B4E21D4B2C900918E3A /* MainTabBarController.swift */; };
-		112E5B5121D5BDF500918E3A /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E5B5021D5BDF500918E3A /* StoryController.swift */; };
 		112E5B5421D5CC5900918E3A /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E5B5321D5CC5900918E3A /* UserProfileController.swift */; };
-		112E5B5821D7B6C700918E3A /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112E5B5721D7B6C700918E3A /* PageViewController.swift */; };
-		116044442205A7C3003A1E5F /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116044432205A7C3003A1E5F /* CameraController.swift */; };
 		116044462205D761003A1E5F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116044452205D761003A1E5F /* Extentions.swift */; };
 		1176816B21F4A27D0055405B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1176816A21F4A27D0055405B /* CoreLocation.framework */; };
 		983DF466237E91DA00A139DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 983DF465237E91DA00A139DB /* GoogleService-Info.plist */; };
@@ -30,10 +27,7 @@
 
 /* Begin PBXFileReference section */
 		112E5B4E21D4B2C900918E3A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		112E5B5021D5BDF500918E3A /* StoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
 		112E5B5321D5CC5900918E3A /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
-		112E5B5721D7B6C700918E3A /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		116044432205A7C3003A1E5F /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		116044452205D761003A1E5F /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		1176816A21F4A27D0055405B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6AA1233CA66F03D2A160A5B0 /* Pods-sirube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sirube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sirube/Pods-sirube.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,29 +61,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		112E5B4D21D4B29E00918E3A /* story */ = {
-			isa = PBXGroup;
-			children = (
-				112E5B5021D5BDF500918E3A /* StoryController.swift */,
-				112E5B5721D7B6C700918E3A /* PageViewController.swift */,
-			);
-			path = story;
-			sourceTree = "<group>";
-		};
 		112E5B5221D5CC2F00918E3A /* userProfile */ = {
 			isa = PBXGroup;
 			children = (
 				112E5B5321D5CC5900918E3A /* UserProfileController.swift */,
 			);
 			path = userProfile;
-			sourceTree = "<group>";
-		};
-		116044422205A78F003A1E5F /* camera */ = {
-			isa = PBXGroup;
-			children = (
-				116044432205A7C3003A1E5F /* CameraController.swift */,
-			);
-			path = camera;
 			sourceTree = "<group>";
 		};
 		436E5B9A101D1A045434DD0D /* Frameworks */ = {
@@ -133,8 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				98A68AE72265883200454B2C /* map */,
-				112E5B4D21D4B29E00918E3A /* story */,
-				116044422205A78F003A1E5F /* camera */,
 				112E5B5221D5CC2F00918E3A /* userProfile */,
 				98B8A9FC2275C856009FE006 /* login */,
 				98B8A9FD2275C8D5009FE006 /* others */,
@@ -317,15 +292,12 @@
 			files = (
 				98A68AE62265881C00454B2C /* MapController.swift in Sources */,
 				112E5B5421D5CC5900918E3A /* UserProfileController.swift in Sources */,
-				112E5B5121D5BDF500918E3A /* StoryController.swift in Sources */,
-				112E5B5821D7B6C700918E3A /* PageViewController.swift in Sources */,
 				116044462205D761003A1E5F /* Extentions.swift in Sources */,
 				98C3BF33226978DB0040C6B6 /* SignUpController.swift in Sources */,
 				98647977226DEFA700B4EC05 /* UserData.swift in Sources */,
 				98A1487821B28014006123FA /* AppDelegate.swift in Sources */,
 				98C3BF352269790B0040C6B6 /* TermsController.swift in Sources */,
 				98C3BF3122682E260040C6B6 /* LoginController.swift in Sources */,
-				116044442205A7C3003A1E5F /* CameraController.swift in Sources */,
 				112E5B4F21D4B2C900918E3A /* MainTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
